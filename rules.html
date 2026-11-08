@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rules & the penalty ladder · BorrowBuy</title>
+<meta name="description" content="BorrowBuy — a verified, campus-only borrowing network where students lend what they already own at a fixed price.">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="BorrowBuy home">
+      <span class="brand-mark"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M4 9a5 5 0 0 1 5-5h9"/><path d="M15 1.5 18.5 4 15 6.5"/><path d="M20 15a5 5 0 0 1-5 5H6"/><path d="M9 22.5 5.5 20 9 17.5"/></svg></span>
+      <span class="brand-name"><b>Borrow</b><span>Buy</span></span>
+    </a>
+    <div class="campus-chip" title="Only verified students of this campus can list or borrow">
+      <span class="dot"></span>
+      <span class="txt"><b>Symbiosis Institute of Technology</b></span>
+    </div>
+    <nav class="nav" aria-label="Primary">
+      <a href="index.html"><span class="label">Home</span></a><a href="browse.html"><span class="label">Browse</span></a><a href="request.html"><span class="label">Requests</span></a><a href="returns.html"><span class="label">Returns</span></a><a href="profile.html"><span class="label">Profile</span></a><a href="rules.html" class="is-active" aria-current="page"><span class="label">Rules</span></a>
+      <a href="profile.html" class="avatar" title="Aarav Menon — verified Mechanical · 3rd year">AM</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Menu"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M4 6.5h16M7 12h10M10 17.5h4"/></svg></button>
+  </div>
+</header>
+
+<main id="main">
+  <div class="wrap">
+    <div class="crumbs" style="padding-top:24px">
+      <a href="index.html">Home</a><svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="m9.5 5.5 6.5 6.5-6.5 6.5"/></svg><span>Rules</span>
+    </div>
+
+    <div class="page-head" style="border-bottom:0;padding-bottom:8px">
+      <span class="eyebrow">The five rules this prototype is built on</span>
+      <h1 style="margin-top:12px;max-width:20ch">The rules are short on purpose.</h1>
+      <p class="lede" style="margin-top:14px;max-width:66ch">Borrowing breaks down over three things: a stranger who cannot be found again, a price that changes after the deal, and damage nobody can prove. Each rule below closes one of those gaps.</p>
+    </div>
+
+    <div class="rules-grid" style="display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin:28px 0 10px">
+
+        <div class="card card-pad" id="id">
+          <div class="inline" style="gap:10px;align-items:flex-start">
+            <span class="ico-badge"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><rect x="2.8" y="5" width="18.4" height="14" rx="2"/><circle cx="8.5" cy="11" r="2.2"/><path d="M5.2 16c.5-1.9 1.8-2.8 3.3-2.8s2.8.9 3.3 2.8M14.5 10h4M14.5 13.5h4"/></svg></span>
+            <div>
+              <span class="eyebrow">Rule 01</span>
+              <h3 style="margin-top:5px">One student ID, one account</h3>
+              <p class="muted" style="margin-top:8px;font-size:13px">Only verified students of this campus can list or borrow. A second account on the same ID is refused at database level, so a bad review cannot be escaped by starting again.</p>
+            </div>
+          </div>
+          <div class="note" style="margin-top:14px;background:#FCFAF4">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><circle cx="12" cy="12" r="9"/><path d="m6 18 12-12"/></svg><div>No phone-number-only signups. No "borrow on behalf of a friend". No cross-campus visibility.</div>
+          </div>
+        </div>
+
+        <div class="card card-pad" id="price">
+          <div class="inline" style="gap:10px;align-items:flex-start">
+            <span class="ico-badge"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><rect x="4.5" y="10.5" width="15" height="10" rx="2"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/></svg></span>
+            <div>
+              <span class="eyebrow">Rule 02</span>
+              <h3 style="margin-top:5px">The price cannot move</h3>
+              <p class="muted" style="margin-top:8px;font-size:13px">The owner sets a daily rate and a deposit once, at listing. Both are frozen. When a borrower requests, they see a total computed from those numbers — and there is no input on either side to change it.</p>
+            </div>
+          </div>
+          <div class="note" style="margin-top:14px;background:#FCFAF4">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M12 4v16M7 20h10"/><path d="M12 7 5 9l-1.5 4.5a3.6 3.6 0 0 0 7 0L9 9M12 7l7 2 1.5 4.5a3.6 3.6 0 0 1-7 0L15 9"/></svg><div>Late fees and damage costs are added by the system against published rates, never typed in by the owner.</div>
+          </div>
+        </div>
+
+        <div class="card card-pad" id="photos">
+          <div class="inline" style="gap:10px;align-items:flex-start">
+            <span class="ico-badge"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M3.5 8.5h3l1.6-2.3h7.8L17.5 8.5h3v10.5h-17z"/><circle cx="12" cy="13.5" r="3.4"/></svg></span>
+            <div>
+              <span class="eyebrow">Rule 03</span>
+              <h3 style="margin-top:5px">Two photos, two sides, timestamped</h3>
+              <p class="muted" style="margin-top:8px;font-size:13px">Before handover and again at return: two opposite sides of the item. The app stamps date and time to the minute. Live in-app capture is an option; gallery upload is allowed but still stamped.</p>
+            </div>
+          </div>
+          <div class="note" style="margin-top:14px;background:#FCFAF4">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><circle cx="12" cy="12" r="9"/><path d="M12 7.2V12l3.4 2"/></svg><div>No timestamp, no loan. The handover button stays disabled until both sides are captured.</div>
+          </div>
+        </div>
+
+        <div class="card card-pad" id="reviews">
+          <div class="inline" style="gap:10px;align-items:flex-start">
+            <span class="ico-badge"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="m12 3.8 2.6 5.4 5.9.8-4.3 4.1 1.1 5.9-5.3-2.9-5.3 2.9 1.1-5.9L3.5 10l5.9-.8L12 3.8Z"/></svg></span>
+            <div>
+              <span class="eyebrow">Rule 04</span>
+              <h3 style="margin-top:5px">Reviews are earned, not posted</h3>
+              <p class="muted" style="margin-top:8px;font-size:13px">A review can only be written after a loan closes. Bad reviews are allowed after a 5-day delay or a damage claim. Reviews cannot be edited or deleted by either student.</p>
+            </div>
+          </div>
+          <div class="note" style="margin-top:14px;background:#FCFAF4">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M12 3 4.5 6v5.5c0 4.6 3.1 8.3 7.5 9.5 4.4-1.2 7.5-4.9 7.5-9.5V6L12 3Z"/><path d="M9 12l2.2 2.2L15.5 10"/></svg><div>Your profile shows return score, item-care score and average delay — read from the photo record, not from what someone typed.</div>
+          </div>
+        </div>
+
+        <div class="card card-pad" id="suspension" style="grid-column:1/-1">
+          <div class="inline" style="gap:10px;align-items:flex-start">
+            <span class="ico-badge"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><circle cx="12" cy="12" r="9"/><path d="m6 18 12-12"/></svg></span>
+            <div>
+              <span class="eyebrow">Rule 05</span>
+              <h3 style="margin-top:5px">Major incidents suspend the account</h3>
+              <p class="muted" style="margin-top:8px;font-size:13px;max-width:78ch">Damage above ₹2,000, or any delay of five days or more, is a major incident. Two major incidents in one academic year suspend the account for the rest of the term: no new requests, no new listings, existing loans must still be settled.</p>
+            </div>
+          </div>
+          <div class="note danger" style="margin-top:14px">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M12 4 2.8 20h18.4L12 4Z"/><path d="M12 9.5v4.5"/><circle cx="12" cy="17.2" r=".9" fill="currentColor" stroke="none"/></svg><div><b>Reinstatement is not automatic.</b> The suspended student writes a request to the campus moderation team, and any owner with an open claim has to confirm it was settled first.</div>
+          </div>
+        </div>
+
+    </div>
+
+    <hr class="rule" style="margin:34px 0 0">
+
+      <div class="section" style="padding-bottom:20px">
+        <span class="eyebrow">Rule 03 &amp; 05 in practice</span>
+        <h2 style="margin-top:10px">The penalty ladder</h2>
+        <p class="lede" style="margin-top:10px;max-width:64ch">Every step is published in advance and applied by the system. Nobody negotiates a fee at the door.</p>
+      </div>
+
+      <div class="two-col" style="padding-top:0">
+        <div class="card card-pad">
+          <div class="ladder">
+        <div class="step-row ok">
+          <span class="dot"></span>
+          <div class="hdr"><b>On time</b><span class="amt">Score +1</span></div>
+          <p>Returned before the agreed slot, condition photos match. Return score ticks up. No fees, deposit refunded within 24 hours.</p>
+        </div>
+        <div class="step-row ok">
+          <span class="dot"></span>
+          <div class="hdr"><b>Up to 1 day late</b><span class="amt">No fee</span></div>
+          <p>Grace window. A "returned late" note is logged on the profile but no money or score penalty is applied. Owner is notified the moment the slot lapses.</p>
+        </div>
+        <div class="step-row warn">
+          <span class="dot"></span>
+          <div class="hdr"><b>2–4 days late</b><span class="amt">₹50 / day</span></div>
+          <p>Late fee starts, capped at ₹300. Return score drops 8 points. The delay is shown on the public profile as a number, not a comment.</p>
+        </div>
+        <div class="step-row warn">
+          <span class="dot"></span>
+          <div class="hdr"><b>5+ days late, or owner unreachable</b><span class="amt">₹150 / day</span></div>
+          <p>Owner can leave a public bad review and file a recovery request. Return score drops 20 points. The item is marked "in dispute" until it comes back.</p>
+        </div>
+        <div class="step-row bad">
+          <span class="dot"></span>
+          <div class="hdr"><b>Returned damaged</b><span class="amt">Repair + ₹500</span></div>
+          <p>Owner files a damage claim with the before/after photo pair. Repair cost is charged at quote, plus a ₹500 handling fee. Issue score drops in proportion to the damage band.</p>
+        </div>
+        <div class="step-row bad">
+          <span class="dot"></span>
+          <div class="hdr"><b>Two major incidents</b><span class="amt">Suspension</span></div>
+          <p>Two major incidents within one academic year — damage above ₹2,000, or any 5+ day delay — suspend the account for the term. Reviews and a re-instatement request are required to return.</p>
+        </div></div>
+        </div>
+
+        <aside>
+          <div class="card">
+            <div class="card-head"><h3>How each score is built</h3></div>
+            <div class="card-body">
+              <div class="kv"><span class="k">On-time return</span><span class="v">60%</span></div>
+              <div class="bar"><i style="width:60%"></i></div>
+              <div class="kv" style="margin-top:14px"><span class="k">Returned as issued</span><span class="v">30%</span></div>
+              <div class="bar"><i style="width:30%"></i></div>
+              <div class="kv" style="margin-top:14px"><span class="k">Owner reviews</span><span class="v">10%</span></div>
+              <div class="bar"><i style="width:10%"></i></div>
+              <p class="tiny" style="margin-top:16px">Scores recompute when a loan closes. They never move because of a message, a report alone, or a manual edit.</p>
+            </div>
+          </div>
+
+          <div class="card" style="margin-top:18px">
+            <div class="card-head"><h3>What is never allowed</h3></div>
+            <div class="card-body">
+              <div class="stack">
+                <div class="inline" style="gap:8px;align-items:flex-start"><span style="color:var(--clay);margin-top:2px"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M6 6l12 12M18 6 6 18"/></svg></span><span style="font-size:12.5px">Hacking, scraping, or accessing another student's account</span></div>
+                <div class="inline" style="gap:8px;align-items:flex-start"><span style="color:var(--clay);margin-top:2px"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M6 6l12 12M18 6 6 18"/></svg></span><span style="font-size:12.5px">Changing a price after a request is sent</span></div>
+                <div class="inline" style="gap:8px;align-items:flex-start"><span style="color:var(--clay);margin-top:2px"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M6 6l12 12M18 6 6 18"/></svg></span><span style="font-size:12.5px">Taking an item off campus without telling the owner</span></div>
+                <div class="inline" style="gap:8px;align-items:flex-start"><span style="color:var(--clay);margin-top:2px"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M6 6l12 12M18 6 6 18"/></svg></span><span style="font-size:12.5px">Re-uploading an old photo instead of a fresh one at return</span></div>
+                <div class="inline" style="gap:8px;align-items:flex-start"><span style="color:var(--clay);margin-top:2px"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M6 6l12 12M18 6 6 18"/></svg></span><span style="font-size:12.5px">A second account on the same student ID</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="note" style="margin-top:18px">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><circle cx="12" cy="12" r="9"/><path d="M12 11v5.5"/><circle cx="12" cy="7.9" r=".9" fill="currentColor" stroke="none"/></svg>
+            <div>A stale photo is caught by the metadata mismatch against the return timestamp. If the EXIF time predates the loan window, the return is rejected and the borrower has to re-capture.</div>
+          </div>
+        </aside>
+      </div>
+  </div>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="index.html">
+          <span class="brand-mark"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M4 9a5 5 0 0 1 5-5h9"/><path d="M15 1.5 18.5 4 15 6.5"/><path d="M20 15a5 5 0 0 1-5 5H6"/><path d="M9 22.5 5.5 20 9 17.5"/></svg></span>
+          <span class="brand-name"><b>Borrow</b><span>Buy</span></span>
+        </a>
+        <p class="tiny" style="margin-top:12px;max-width:34ch">A closed borrowing network for one campus. One student ID, one account, prices fixed at listing.</p>
+        <div class="tag-row" style="margin-top:14px">
+          <span class="chip green"><svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M12 3 4.5 6v5.5c0 4.6 3.1 8.3 7.5 9.5 4.4-1.2 7.5-4.9 7.5-9.5V6L12 3Z"/><path d="M9 12l2.2 2.2L15.5 10"/></svg> ID-gated</span>
+          <span class="chip outline"><svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><rect x="4.5" y="10.5" width="15" height="10" rx="2"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/></svg> Price locked</span>
+        </div>
+      </div>
+      <div>
+        <h5>Browse</h5>
+        <a href="browse.html">All items</a>
+        <a href="browse.html#electronics">Electronics</a>
+        <a href="browse.html#academics">Academics</a>
+        <a href="browse.html#transport">Transport</a>
+      </div>
+      <div>
+        <h5>Your stuff</h5>
+        <a href="request.html">Active request</a>
+        <a href="handover.html">Handover &amp; photos</a>
+        <a href="returns.html">Returns &amp; claims</a>
+        <a href="profile.html">Trust profile</a>
+      </div>
+      <div>
+        <h5>The rules</h5>
+        <a href="rules.html">Penalty ladder</a>
+        <a href="rules.html#photos">Photo protocol</a>
+        <a href="rules.html#reviews">Reviews &amp; suspension</a>
+        <a href="verify.html">Verify your ID</a>
+      </div>
+    </div>
+
+    <div class="screen-map">
+      <span class="eyebrow">Prototype map · 9 screens</span>
+      <div class="screen-map-links">
+        <a href="index.html"><span class="n">01</span>Home / landing</a>
+        <a href="browse.html"><span class="n">02</span>Browse board</a>
+        <a href="item.html"><span class="n">03</span>Item detail</a>
+        <a href="request.html"><span class="n">04</span>Request & terms</a>
+        <a href="handover.html"><span class="n">05</span>Handover photos</a>
+        <a href="returns.html"><span class="n">06</span>Returns & claims</a>
+        <a href="profile.html"><span class="n">07</span>Trust profile</a>
+        <a href="verify.html"><span class="n">08</span>ID verification</a>
+        <a href="rules.html" class="is-here" aria-current="page"><span class="n">09</span>Rules & penalties</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 BorrowBuy — student prototype. No payments are processed in this build.</span>
+      <span class="mono">v0.4 · prototype</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
